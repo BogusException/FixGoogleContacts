@@ -4,27 +4,9 @@ Removes google's mandatory prefix/suffix additions that broke our "Contacts".
 Without notice, or asking permission, google's gmail decided to f*ck up all our contacts. For me, just North of 3,500...
 Worse yet, the prefix and suffix fields they screwed up cannot be edited. Good thinking, google...
 
-So this is an easy way to fix-even dry run!
+So this is an easy way to fix-even dry run! 
 
-Script Usage
------------------------------
-This script removes Google-assigned honorific prefixes and suffixes from Gmail contacts
-and moves them into editable fields (givenName and familyName). It allows users to
-clean up their contact names to reverse unwanted formatting applied by Google.
-
-Flags:
-
-  -d           Dry run (no changes written to contacts)
-
-  -r <float>   Rate limit delay between updates (in seconds, e.g. -r 1.0)
-  
-  -h           Show this help message and exit
-
-Examples:
-  
-  python ClearGMailContactPrefixes.py -d
-  
-  python ClearGMailContactPrefixes.py -r 0.75
+Created almost entirely by a custom ChatGPT 4o
 
 # Gmail Contact Cleanup Tool
 
@@ -117,4 +99,3 @@ MIT License — free to use, share, and adapt.
 
 Originally created by a frustrated user tired of Google formatting overreach.  
 Now shared to help anyone reclaim control of their contacts.
-
